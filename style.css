@@ -12,7 +12,7 @@ body {
 header,
 footer {
     background-color: #00b588;
-    color:#03200b;
+    color: #03200b;
     padding: 20px;
 }
 
@@ -34,7 +34,7 @@ footer {
 }
 
 .navbar a {
-    color:#03200b;
+    color: #03200b;
     text-decoration: none;
     font-weight: bolder;
 
@@ -52,21 +52,29 @@ li a {
 
 nav a:hover {
     text-decoration: underline;
-    color:  #0f5810;
-    
+    color: #0f5810;
+
 }
-#home img{
+
+#home img {
 
     width: 100%;
     height: 500px;
-    border-radius:5px;
+    border-radius: 5px;
     box-shadow: 0 4px 8px rgba(4, 35, 6, 0.2);
-    
+
 }
+
 section {
     padding: 10px;
     margin-bottom: 20px;
 
+}
+
+h2:hover {
+    box-shadow: 0 4px 8px rgba(4, 35, 6, 0.2);
+    transform: scale(1.03);
+    transition: 0.3s ease;
 }
 
 .fa {
@@ -110,101 +118,110 @@ h2 {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-   
+
 }
 
 
 .image {
-  flex: 1 1 250px;
-  padding: 15px;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  background-color: #fafafa;
-  text-align: center;
+    flex: 1 1 250px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #fafafa;
+    text-align: center;
 }
 
 .image img {
-  width: 250px;
-  height: 150px;
-  margin-bottom: 10px;
-}
-.image:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: scale(1.03);
-  transition: 0.3s ease;
+    width: 250px;
+    height: 150px;
+    margin-bottom: 10px;
 }
 
-article{
+.image:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+    transition: 0.3s ease;
+}
+
+article {
     margin: 10px;
     padding: 20px;
-   
+
 }
-.contact{
+
+.contact {
     padding: 20px;
-   
+
 }
-.importance img{
-   float: right;
-   width: 300px;
-   height: 150px;
-   
+
+.importance img {
+    float: right;
+    width: 300px;
+    height: 150px;
+
 }
 
 #tips article {
-  max-width: 800px;
-  margin: auto;
-  line-height: 1.8;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
 }
 
 #tips h3 {
-  margin-top: 20px;
-  color: #00b588;
-  font-weight: bold;
+    margin-top: 20px;
+    color: #00b588;
+    font-weight: bold;
 }
 
 
 
 #contact .contact {
-  max-width: 700px;
-  margin: auto;
-  line-height: 1.6;
-  color: #222;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+    color: #222;
 }
 
 #contact h3 {
-  margin-top: 30px;
-  color: #00b588;
+    margin-top: 30px;
+    color: #00b588;
 }
-@media (max-width: 320px){
-#home img{
 
-    width: 100%;
-    height: 200px;
-    border-radius:5px;
-    box-shadow: 0 4px 8px rgba(4, 35, 6, 0.2);
-    
-}
-h2{
-    font-size:large;
-}
-header{
-    background-color: #00b588;
-    color:#03200b;
-    padding: 10px;
-    font-size: small;
+@media (max-width: 320px) {
+    #home img {
 
-}
-.importance img{
-   float: right;
-   width: 250px;
-   height: 150px;
-   margin: 10px;
- 
-   
-}
-.contact,article{
-    font-size: small;
-}
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(4, 35, 6, 0.2);
+
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+    header {
+        background-color: #00b588;
+        color: #03200b;
+        padding: 10px;
+        font-size: small;
+
+    }
+
+    .importance img {
+        float: right;
+        width: 250px;
+        height: 150px;
+        margin: 10px;
+
+
+    }
+
+    .contact,
+    article {
+        font-size: small;
+    }
 
 
 
